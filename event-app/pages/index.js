@@ -8,6 +8,9 @@ export default function HomePage(props) {
     <div>
       <Head>
         <title>Event meetup app</title>
+        <meta name="description"
+        content="Find a lot of great events that allow you to evolve....."
+        />
       </Head>
       <EventList items={props.events} />
     </div>
